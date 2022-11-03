@@ -1,0 +1,13 @@
+name: SNA_Test_Application
+title: SNA_Test_Application
+username:
+account: joemarangos
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7368591
+bundleId: 6423857
+url: https://joemarangos.shinyapps.io/SNA_Test_Application/
+when: 1666282451.91022
+lastSyncTime: 1666282451.91022
+asMultiple: FALSE
+asStatic: FALSE
