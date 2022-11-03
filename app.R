@@ -294,27 +294,27 @@ server <- function(input, output) {
       if (input$baselayer == "standard"){
         proxy2 %>%
           clearTiles() %>%
-          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1ochw001s14muumlqzopk", access_token = "pk.eyJ1Ijoiam9lbWFyYW5nb3MiLCJhIjoiY2wyZXI1eWdyMDI4OTNpbzNjYXlhcGxhYSJ9.gEJgFPqnRhd_MRL309zwcw",group = "standard",options = pathOptions(pane = "base"))
+          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1ochw001s14muumlqzopk", access_token = "hidden",group = "standard",options = pathOptions(pane = "base"))
       }
       else if (input$baselayer == "light"){
         proxy2 %>%
           clearTiles() %>%
-          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1wt17002m14piyxlvvdat", access_token = "pk.eyJ1Ijoiam9lbWFyYW5nb3MiLCJhIjoiY2wyZXI1eWdyMDI4OTNpbzNjYXlhcGxhYSJ9.gEJgFPqnRhd_MRL309zwcw",group = "light",options = pathOptions(pane = "base"))
+          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1wt17002m14piyxlvvdat", access_token = "hidden",group = "light",options = pathOptions(pane = "base"))
       }
       else if (input$baselayer == "streets"){
         proxy2 %>%
           clearTiles() %>%
-          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1z2ai002b14ksruxzlpe9", access_token = "pk.eyJ1Ijoiam9lbWFyYW5nb3MiLCJhIjoiY2wyZXI1eWdyMDI4OTNpbzNjYXlhcGxhYSJ9.gEJgFPqnRhd_MRL309zwcw",group = "streets",options = pathOptions(pane = "base"))
+          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1z2ai002b14ksruxzlpe9", access_token = "hidden",group = "streets",options = pathOptions(pane = "base"))
       }
       else if (input$baselayer == "dark"){
         proxy2 %>%
           clearTiles() %>%
-          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2ex322t001814piusq8f1p0", access_token = "pk.eyJ1Ijoiam9lbWFyYW5nb3MiLCJhIjoiY2wyZXI1eWdyMDI4OTNpbzNjYXlhcGxhYSJ9.gEJgFPqnRhd_MRL309zwcw",group = "dark",options = pathOptions(pane = "base"))
+          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2ex322t001814piusq8f1p0", access_token = "hidden",group = "dark",options = pathOptions(pane = "base"))
       }
       else if (input$baselayer == "satellite"){
         proxy2 %>%
           clearTiles() %>%
-          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1ucmp00d817prb81qbg43", access_token = "pk.eyJ1Ijoiam9lbWFyYW5nb3MiLCJhIjoiY2wyZXI1eWdyMDI4OTNpbzNjYXlhcGxhYSJ9.gEJgFPqnRhd_MRL309zwcw",group = "satellite",options = pathOptions(pane = "base"))
+          addMapboxTiles(style_url = "mapbox://styles/joemarangos/cl2g1ucmp00d817prb81qbg43", access_token = "hidden",group = "satellite",options = pathOptions(pane = "base"))
       }
     })
     
